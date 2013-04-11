@@ -1,0 +1,65 @@
+% Use UTF-8 encoding!!
+
+\documentclass[english,ngerman]{KITreprt}
+
+
+%% -------------------------------
+%% |  Information for PDF file   |
+%% -------------------------------
+\hypersetup{
+ pdfauthor={Juan Camilo Vasquez Tieck},
+ pdftitle={Human Motion Capture},
+ pdfsubject={Human motion capture for robot imitation learning},
+ pdfkeywords={Kognitive Automobile, maschineles Lernen, Trajektorie}
+}
+   
+
+%% --------------------------------
+%% Obligatory Parameters:
+%% --------------------------------
+
+\renewcommand{\myname}{Juan Camilo Vasquez Tieck, Joachim Gehrung, Christopher Schulte, Matija Ilijas, Martin Asghar Schulze, Giorgio xxx}
+\renewcommand{\mythesis}{\studienarbeit} %\mastersthesis, \bachelorsthesis, \protocol, \studienarbeit, \diplomarbeit
+\renewcommand{\myshorttitle}{Human motion capture for robot imitation learning}
+\renewcommand{\mytitle}{ Human Motion Capture}
+
+\renewcommand{\timestart}{October 2012}
+\renewcommand{\timeend}{April 2013}	%\iflanguage{english}{February 7\textsuperscript{th},}{7. Februar} 2010}
+\newcommand{\advisor}{Dipl.-Inform. ...}
+\newcommand{\advisortwo}{Dipl.-Inform. ...}
+
+\graphicspath{{./images/}}
+
+\begin{document}
+
+%\selectlanguage{english}
+\selectlanguage{ngerman}
+
+\maketitle
+
+\tableofcontents
+
+\input{Einleitung}
+
+\input{Ueberblick_Framework}
+\input{Datenaufnahme}
+\input{Features}
+\input{Verfahren}
+\input{Ergebnisse}
+\input{Fazit_Ausblick}
+
+%\input{kit_template}
+
+
+%\bibliographystyle{abbrvnat} %-English
+\bibliographystyle{dinat} %-Deutsch
+
+\bibliography{bibnref}
+%\bibliography{/Users/jcvasquezt/Documents/Research_Bib_DB/bib/HRS}
+%\bibliography{HRSa}
+
+\input{annex_additional_resources}
+
+\end{document}
+
+
