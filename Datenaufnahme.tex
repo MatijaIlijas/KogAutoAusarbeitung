@@ -7,7 +7,7 @@
 \label{sec:Probleme_Loesungen_Vergleiche}
 Die Datenaufnahme bezeichnet die Gewinnung von Lerndaten für die ausgewählten Lernalgorithmen. Die Hauptschwierigkeit hierbei war die Darstellung der zu fahrenden Streckenführung und des jeweiligen Standortes des Referenzfahrzeugs. Eine gute räumliche und zeitliche Verfolgung der Referenzfahrt muss zu jedem Zeitpunkt gegeben sein. Zur Verfügung stand uns das im CarMaker integrierte Tool zur Streckengestaltung und ein kleiner Monitor innerhalb des Fahrzeugs, auf dem wir normale Desktopanwendungen ausführen konnten. Folgende Gedankengänge haben wir implementiert und ausprobiert.
 
-\subsection{Streckenführung und \glqq Ghostcar\grqq per CarMaker}
+\subsection{Streckenführung und Ghostcar per CarMaker}
 \label{sec:Probleme_Loesungen_Vergleiche_ss1}
 Bei unserer ersten Implementierung wurde eine Strecke mittels des CarMakers gebaut und abgefahren. Diese Fahrt wurde als Referenzfahrt gekennzeichnet und durch ein Ghostcar dargestellt.
 Dieses Vorgehen funktionierte relativ gut, allerdings konnte man durch das fehlende Geschwindigkeitsgefühl und ohne Vorwissen über die Referenzfahrt das Ghostcar nicht gut verfolgen. Abrupte Fahrmanöver wie starkes Bremsen oder Beschleunigen wurden so meist zu spät erkannt, wodurch man sich zu weit von der Referenzfahrt entfernte und die Fahrt wiederholen musste. Hier wäre also zuerst ein menschliches Training nötig gewesen, um dann die Referenzfahrt möglichst gut absolvieren zu können.
