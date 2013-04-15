@@ -20,11 +20,17 @@ blablabla
 % section Setup (end)
 
 
-\section{Carmaker/Apo-Client Anpassungen} % (fold) 
+\section{CarMaker/Apo-Client Anpassungen} % (fold) 
 \label{sub:Carmaker_Apo_Client_Anpassungen}
-blablabla\\
+CarMaker ist eine von IPG Automotive (http://www.ipg.de) entwickelte Software, welche eine umfassende Simulation der Fahrzeugdynamik von Automobilen bietet. In unserem Versuchsaufbau ist diese Software für die Kommunikation mit dem Fahrsimulator und der Realisierung der Streckenführung zuständig.
+Der ApoClient bietet uns eine ROS Schnittstelle zum CarMaker, sodass wir auf alle vom CarMaker empfangenen Daten auch über ROS zugreifen können.
 
-blablabla
+Für unsere Problemstellung ist allerdings nicht nur ein Empfangen der Daten notwendig, sondern auch ein Übermitteln, da die drei Zielgrößen in Echtzeit übermittelt werden sollen. CarMaker und ApoClient wurden also so angepasst, dass sie in jedem Zeitschritt auch die Werte der drei Zielgrößen empfangen und an das Automobil weitergeben.
+
+Die anfängliche Abtastrate des Systems betrug beim Projektstart nur 4-5 Hz. Bei dieser niedrigen ist eine vollständige Rekonstruktion der Lenkbewegung nur schwer möglich, weil der Fahrsimulator die übermittelten Werte direkt exakt einstellt und somit keine natürliche und flüssige Lenkbewegung ausführt. Durch eine höhere Abtastrate wird diese Lenkbewegung wieder vollständiger und somit für die weitere Verarbeitung nützlicher.
+Um eine höhere Abtastrate zu erhalten wurden zwei Änderungen an dem System vorgenommen. Zum Ersten wurden alle relevanten Daten in einem ROS-Topic gebündelt, sodass nicht mehr 5 Topics veröffentlicht werden müssen. Dies bringt allerdings nur eine kleine zeitliche Verbesserung und wurde hauptsächlich wegen der Übersichtlichkeit vollzogen. Die zweite Änderung war eine Reduktion der abgefragten Daten auf die für uns relevanten Daten und somit eine erhöhte Abtastrate.
+
+Insgesamt wurde die Abtastrate von 4-5 Hz auf konstante 15 Hz erhöht und eine bidirektionale Kommunikation in Echtzeit mit dem System ermöglicht.
 % section Carmaker_Apo_Client_Anpassungen (end)
 
 
@@ -56,7 +62,7 @@ blablabla
 
 \subsection{Visualisierung2} % (fold)
 \label{sub:Visualisierung2}
-blablabla
+Eigentlich kann man hier nichts schreiben außer das Bild machen und auf den Datenaufnahme abschnitt verweisen. Dort wird ja das Verfahren genauer erklärt.. ist sonst redundant.
 % subsection Visualisierung2 (end)
 
 % section Visualisierung (end)

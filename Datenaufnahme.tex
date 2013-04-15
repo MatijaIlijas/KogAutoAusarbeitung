@@ -5,10 +5,21 @@
 
 \section{Probleme, Lösungen, Vergleiche...} % (fold)
 \label{sec:Probleme_Loesungen_Vergleiche}
-blablabla\\
+Die Datenaufnahme bezeichnet die Gewinnung von Lerndaten für die ausgewählten Lernalgorithmen. Die Hauptschwierigkeit hierbei war die Darstellung der zu fahrenden Streckenführung und des jeweiligen Standortes des Referenzfahrzeugs. Eine gute räumliche und zeitliche Verfolgung der Referenzfahrt muss zu jedem Zeitpunkt gegeben sein. Zur Verfügung stand uns das im CarMaker integrierte Tool zur Streckengestaltung und ein kleiner Monitor innerhalb des Fahrzeugs, auf dem wir normale Desktopanwendungen ausführen konnten. Folgende Gedankengänge haben wir implementiert und ausprobiert.
 
-blablabla
+\subsection{Streckenführung und \glqq Ghostcar\grqq per CarMaker}
+\label{sec:Probleme_Loesungen_Vergleiche_ss1}
+Bei unserer ersten Implementierung wurde eine Strecke mittels des CarMakers gebaut und abgefahren. Diese Fahrt wurde als Referenzfahrt gekennzeichnet und durch ein Ghostcar dargestellt.
+Dieses Vorgehen funktionierte relativ gut, allerdings konnte man durch das fehlende Geschwindigkeitsgefühl und ohne Vorwissen über die Referenzfahrt das Ghostcar nicht gut verfolgen. Abrupte Fahrmanöver wie starkes Bremsen oder Beschleunigen wurden so meist zu spät erkannt, wodurch man sich zu weit von der Referenzfahrt entfernte und die Fahrt wiederholen musste. Hier wäre also zuerst ein menschliches Training nötig gewesen, um dann die Referenzfahrt möglichst gut absolvieren zu können.
+
+\subsection{Streckenführung und Marker per CarMaker}
+\label{sec:Probleme_Loesungen_Vergleiche_ss2}
+Hier wurde zusätzlich zur Streckenführung auf Marker zugegriffen. Die CarMaker-Software stellt unterschiedliche Arten von Markern zur Verfügung, wobei hier nur räumliche Marker wie z.B.  Straßenmarkierungen, Höchstgeschwindigkeitsschilder oder Bäume benutzt werden können. Allerdings konnte man durch die Nutzung von Schildern eine Vorrauschau für den Fahrer bieten und er konnte sich frühzeitig auf abrupte Veränderungen der Geschwindigkeit einstellen. Da jedoch die Darstellung der Zeit, also wo man sich eigentlich zu dem aktuellen Zeitpunkt befinden müsste, hier nicht von betroffen war, bestand das Problem weiterhin, dass man nicht exakt nachvollziehen konnte, ob man aktuell zu schnell oder zu langsam fährt.
+
+\subsection{Streckenführung und Marker per CarMaker, Visualisierung per RVIZ}
+\label{sec:Probleme_Loesungen_Vergleiche_ss3}
+Diese Lösung sieht eine Visualisierung anhand der Streckenführung und Straßenschildern vor, wird allerdings durch einen zweidimensionalen Plot der ROS-eigenen Visualisierung RVIZ ergänzt.  Hierzu wurden die zukünftige Positionen der nächsten drei Sekunden der Referenzfahrt eingezeichnet und der Fahrer konnte abrupte Fahrmanöver mit Vorausschau erkennen.
+Der Plot wurde dann auf den kleinen Bildschirm im Fahrsimulator gelegt, sodass der Fahrer die benötigten Daten aus beiden Quellen ablesen konnte: die grobe Streckenführung und Geschwindigkeit aus der Visualisierung des CarMakers und die exakte Streckenführung und die Zeitschritte bezüglich der Referenztrajektorie aus der RVIZ Visualisierung. 
+Diese Implementierung wurde letztendlich für die Aufnahme unserer Trainingsdaten genutzt.
 % section Probleme_Loesungen_Vergleiche (end)
-
-
 % chapter Datenaufnahme (end)
