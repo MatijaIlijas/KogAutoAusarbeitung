@@ -1,4 +1,6 @@
 KogAutoAusarbeitung
 ===================
 
-latex collaboration
+latex collaboration repository
+
+jcvt.

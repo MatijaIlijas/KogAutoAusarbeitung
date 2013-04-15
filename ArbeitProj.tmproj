@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>currentDocument</key>
-	<string>Body.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -19,49 +17,51 @@
 					<key>filename</key>
 					<string>annex_additional_resources.tex</string>
 					<key>lastUsed</key>
-					<date>2013-04-11T08:12:42Z</date>
+					<date>2013-04-11T14:13:20Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>Einleitung.tex</string>
 					<key>lastUsed</key>
-					<date>2013-04-11T11:03:47Z</date>
+					<date>2013-04-11T14:13:21Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>Ergebnisse.tex</string>
 					<key>lastUsed</key>
-					<date>2013-04-11T08:12:36Z</date>
+					<date>2013-04-11T14:13:20Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>Datenaufnahme.tex</string>
 					<key>lastUsed</key>
-					<date>2013-04-11T08:12:34Z</date>
+					<date>2013-04-11T14:13:20Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>Features.tex</string>
 					<key>lastUsed</key>
-					<date>2013-04-11T08:12:48Z</date>
+					<date>2013-04-11T14:13:20Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>Fazit_Ausblick.tex</string>
 					<key>lastUsed</key>
-					<date>2013-04-11T08:13:47Z</date>
+					<date>2013-04-11T14:13:21Z</date>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>Verfahren.tex</string>
 					<key>lastUsed</key>
-					<date>2013-04-11T08:13:59Z</date>
+					<date>2013-04-15T20:01:50Z</date>
+					<key>selected</key>
+					<true/>
 				</dict>
 				<dict>
 					<key>filename</key>
 					<string>Ueberblick_Framework.tex</string>
 					<key>lastUsed</key>
-					<date>2013-04-11T08:14:10Z</date>
+					<date>2013-04-11T14:13:20Z</date>
 				</dict>
 			</array>
 			<key>expanded</key>
@@ -73,9 +73,7 @@
 			<key>filename</key>
 			<string>Body.tex</string>
 			<key>lastUsed</key>
-			<date>2013-04-11T11:11:39Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2013-04-15T20:01:49Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -91,7 +89,7 @@
 			<key>filename</key>
 			<string>KITreprt.cls</string>
 			<key>lastUsed</key>
-			<date>2013-04-11T11:11:39Z</date>
+			<date>2013-04-11T14:13:19Z</date>
 		</dict>
 		<dict>
 			<key>children</key>
@@ -116,197 +114,9 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>260</integer>
+	<integer>261</integer>
 	<key>metaData</key>
 	<dict>
-		<key>Body.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>34</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>2</integer>
-		</dict>
-		<key>Datenaufnahme.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>23</integer>
-				<key>line</key>
-				<integer>13</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>Einleitung.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>1</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>Ergebnisse.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>18</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>1</integer>
-			</dict>
-		</dict>
-		<key>Fazit_Ausblick.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>17</integer>
-				<key>line</key>
-				<integer>5</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>Features.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>1</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>KITreprt.cls</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>131</integer>
-				<key>line</key>
-				<integer>111</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>97</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>123</integer>
-				<key>line</key>
-				<integer>111</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>131</integer>
-				<key>line</key>
-				<integer>111</integer>
-			</dict>
-		</dict>
-		<key>Ueberblick_Framework.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>19</integer>
-				<key>line</key>
-				<integer>3</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>11</integer>
-				<key>line</key>
-				<integer>3</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>31</integer>
-				<key>line</key>
-				<integer>3</integer>
-			</dict>
-		</dict>
-		<key>Verfahren.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>19</integer>
-				<key>line</key>
-				<integer>18</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>annex_additional_resources.tex</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>26</integer>
-				<key>line</key>
-				<integer>2</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>kit_template.tex</key>
 		<dict>
 			<key>caret</key>
@@ -322,22 +132,9 @@
 			<integer>52</integer>
 		</dict>
 	</dict>
-	<key>openDocuments</key>
-	<array>
-		<string>Body.tex</string>
-		<string>KITreprt.cls</string>
-		<string>annex_additional_resources.tex</string>
-		<string>Features.tex</string>
-		<string>Datenaufnahme.tex</string>
-		<string>Ergebnisse.tex</string>
-		<string>Ueberblick_Framework.tex</string>
-		<string>Einleitung.tex</string>
-		<string>Verfahren.tex</string>
-		<string>Fazit_Ausblick.tex</string>
-	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{383, 101}, {894, 677}}</string>
+	<string>{{317, 66}, {894, 677}}</string>
 </dict>
 </plist>
